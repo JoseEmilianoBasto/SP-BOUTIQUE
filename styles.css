@@ -1,0 +1,306 @@
+#title {
+    background-color: #000000;
+  }
+  
+  h1 {
+    font-family: "Montserrat-Black", sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.4;
+    font-weight: 900;
+  }
+  
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  .logotindog {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .navigationbaroptions {
+    font-size: 30px;
+    margin-right: 18px;
+    margin-left: 18px; 
+  }
+  
+  body {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+    text-align: center;
+    position: relative;
+    left: 15px;
+  }
+
+
+  .titleimg {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  }
+  
+  #features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  #testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+  }
+  
+  h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+  }
+  
+  #press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .singupbtn {
+    width: 100%;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .iphone-img {
+    position: relative;
+  }
+  
+  .end-title {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    padding-top: 60px;
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  
+  .end {
+    background-color: black;
+    text-align: center;
+  }
+  
+  .db2 {
+    margin-top: 60px;
+  }
+  
+  #footer {
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #8f8f8f;
+  }
+  
+  .footericons {
+    color: black;
+    margin: 20px 10px;
+  }
+  
+  .testimonial-name {
+    font-size: 25px;
+  }
+  
+  .planpricingsubtitle {
+    font-size: 25px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .end2 {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  
+  .end-title2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: black;
+    padding-top: 60px;
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  
+  .a2 {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .photos-title {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    padding-top: 60px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    display: block;
+  }
+  
+  .photos-div {
+    background-color: black;
+    text-align: center;
+  }
+
+  .photos-img {
+    border-radius: 5%;
+    margin: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 1028px) {
+    .titleimg {
+      position: static;
+      transform: rotate(0);
+    }
+  
+    #title {
+      text-align: center;
+    }
+  
+    .end-title {
+      font-size: 45px;
+      width: 50%;
+      margin: auto;
+    }
+  
+    .testimonial-image {
+      border-radius: 100%;
+      width: 15%;
+      margin: 20px;
+    }
+  
+    .testimonial-name {
+      font-size: 25px;
+    }
+  
+    .pricingtable {
+      margin-bottom: 50px;
+    }
+  
+    .planpricingtitle {
+      margin-bottom: 35px;
+    }
+  
+    .planpricingsubtitle {
+      font-size: 30px;
+    }
+  
+    body {
+      font-size: 25px;
+    }
+  
+    .linksnavbar {
+      font-size: 35px;
+    }
+  
+    .navbarlinksbutton {
+      font-size: 35px;
+    }
+  
+    h1 {
+      font-family: "Montserrat-Black", sans-serif;
+      color: white;
+      font-size: 50px;
+      line-height: 1.4;
+      font-weight: 900;
+    }
+  
+    h3 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 900;
+      font-size: 35px;
+    }
+  
+    #features {
+      font-size: 30px;
+    }
+  
+    #footer {
+      font-size: 30px;
+    }
+  
+    .download-button {
+      font-size: 30px;
+    }
+  }
+  
+  
+  
